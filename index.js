@@ -18,7 +18,7 @@ for (var i = 1; i<=n; i++ )
 {
    exponent = multiply(exponent,x); 
 }
-return (exponent);
+return(exponent);
 }
 
 function factorial(x) {
@@ -38,12 +38,16 @@ var track = 0;
      One = Two;
      Two = track;
  }
-return(track);
+ return(track);
 }
 
 
 
-
+document.write(JSON.stringify(add(2,4))+ "<br />");
+document.write(JSON.stringify(multiply(6,8))+ "<br />");
+document.write(JSON.stringify(power(3,2))+ "<br />");
+document.write(JSON.stringify(factorial(4))+ "<br />");
+document.write(JSON.stringify(fibonacci(8))+ "<br />");
 
 
 
